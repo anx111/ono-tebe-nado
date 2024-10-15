@@ -124,7 +124,7 @@
 /* hero */
 .hero {
   position: relative;
-  background: url('../images/cover.jpg') 100% 100% / cover no-repeat;
+  background: url('../images/cover.jpg') center center / cover no-repeat;
   margin-bottom: 181px;
 }
 
@@ -251,18 +251,21 @@
   flex-direction: column;
   flex-grow: 1;
   min-height: 564px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card-lots_film {
-  background: url('../images/card-lot-01.jpg') 100% 100% / cover no-repeat;
+  background: url('../images/card-lot-01.jpg');
 }
 
 .card-lots_book {
-  background: url('../images/card-lot-02.jpg') 100% 100% / cover no-repeat;
+  background: url('../images/card-lot-02.jpg');
 }
 
 .card-lots_picture {
-  background: url('../images/card-lot-03.jpg') 100% 100% / cover no-repeat;
+  background: url('../images/card-lot-03.jpg');
 }
 
 .card-lots__body {
