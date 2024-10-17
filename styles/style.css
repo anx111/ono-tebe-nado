@@ -257,15 +257,15 @@
 }
 
 .card-lots_film {
-  background: url('../images/card-lot-01.jpg');
+  background-image: url('../images/card-lot-01.jpg');
 }
 
 .card-lots_book {
-  background: url('../images/card-lot-02.jpg');
+  background-image: url('../images/card-lot-02.jpg');
 }
 
 .card-lots_picture {
-  background: url('../images/card-lot-03.jpg');
+  background-image: url('../images/card-lot-03.jpg');
 }
 
 .card-lots__body {
